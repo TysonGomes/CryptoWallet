@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @mining_type.nome %>
+</p>
+
+<p>
+  <strong>Acro:</strong>
+  <%= @mining_type.acro %>
+</p>
+
+<%= link_to 'Edit', edit_mining_type_path(@mining_type) %> |
+<%= link_to 'Back', mining_types_path %>
